@@ -8,7 +8,7 @@ import ProjectsList from "./components/ProjectsList";
 
 export default function Home() {
   return (
-    <main className="max-w-[1500px] mx-auto relative ">
+    <main className="md:max-w-[1500px] mx-auto relative w-full">
       <Hero />
       <About />
       <Skills />

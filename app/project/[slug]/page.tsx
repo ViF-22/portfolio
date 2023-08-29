@@ -19,15 +19,15 @@ type Props = {
   };
 };
 
-export async function generateStaticParams() {
-  const query = `*[_type == "post"]{slug}`;
-  const slugs: Post[] = await client.fetch(query);
-  const slugRoutes = slugs.map((slug) => slug.slug.current);
+// export async function generateStaticParams() {
+//   const query = `*[_type == "post"]{slug}`;
+//   const slugs: Post[] = await client.fetch(query);
+//   const slugRoutes = slugs.map((slug) => slug.slug.current);
 
-  return slugRoutes.map((slug) => ({
-    slug,
-  }));
-}
+//   return slugRoutes.map((slug) => ({
+//     slug,
+//   }));
+// }
 
 async function Project({ params: { slug } }: Props) {
   const query = `*[_type == "post" && slug.current == "${slug}"][0]`;

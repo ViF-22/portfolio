@@ -8,7 +8,7 @@ import { Suspense } from "react";
 
 function Hero() {
   return (
-    <div className="   md:mx-[120px]  rounded-xl md:mt-5 md:pb-10  relative  ">
+    <div className="w-full md:px-[120px]  rounded-xl md:mt-5 md:pb-10  relative  ">
       <NavBar />
       <div className="px-10 md:px-0 grid md:grid-cols-2 grid-cols-1 relative pt-10 bg h-full gap-y-10 ms:gap-y-0">
         {/* left */}
@@ -35,7 +35,7 @@ function Hero() {
         {/* right */}
         <div
           className="
-        relative  h-[80vh] max-h-[700px] w-[400px]  "
+        relative  h-[80vh] md:max-h-[700px] max-h-[600px] md:w-[400px]  w-full"
         >
           <Suspense fallback={<Skeleton />}>
             <Image
@@ -44,7 +44,7 @@ function Hero() {
               preloader="blur"
               alt="avatar"
               priority
-              className="object-cover"
+              className="object-cover object-top"
             />
           </Suspense>
         </div>
