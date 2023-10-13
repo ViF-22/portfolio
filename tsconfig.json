@@ -30,7 +30,8 @@
     ".next/types/**/*.ts",
     "app/components/ThemeButton.jsx",
     "app/components/ui/ButtonBack.jsx",
-    "app/components/About.jsx"
+    "app/components/About.jsx",
+    "app/components/ui/ScrollProject.jsx"
   ],
   "exclude": ["node_modules"]
 }

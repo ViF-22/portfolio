@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Contacts from "./components/Contacts";
 import ProjectsList from "./components/ProjectsList";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
-      <ProjectsList />
+      {/* <ProjectsList /> */}
+      <Projects />
       <Contacts />
     </main>
   );

@@ -4,7 +4,7 @@ const contacts = [];
 function Contacts() {
   return (
     <section
-      className=" rounded-lg font-spaceMono w-full px-5 md:px-[120px] py-10 flex justify-between items-center "
+      className=" rounded-lg font-spaceMono w-full px-5 md:px-[120px]  md:my-12 mb-10 flex justify-between items-center "
       id="contacts"
     >
       <div className="bg-gray-200/50 dark:bg-gray-700/20 rounded-lg font-spaceMono w-full flex justify-between items-center px-5 py-5">
