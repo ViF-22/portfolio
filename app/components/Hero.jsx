@@ -18,10 +18,10 @@ function Hero() {
               Victoria Feofanova
             </h2>
 
-            <p className="text-[19px] w-full text-slate-600 dark:text-white font-poppins ">
+            <p className="flex flex-col text-[19px] w-full text-slate-600 dark:text-white font-poppins ">
               Front-end Developer that loves creating beauty with a few dozen
               lines of
-              <code className=" dark:text-slate-600 pl-3 highlight">
+              <code className=" dark:text-slate-600 pl-3 highlight flex self-start">
                 JSX code
               </code>
             </p>
